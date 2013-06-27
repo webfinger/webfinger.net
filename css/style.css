@@ -13,6 +13,11 @@ header {
   padding: 1em;
 }
 
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
 #logo {
   height: 100px;
   float: left;
