@@ -16,3 +16,7 @@ title: WebFinger Libraries
 ### Node.js ###
 
  - [e14n/webfinger](https://github.com/e14n/webfinger)
+
+### Other ###
+
+ - [WordPress plugin](http://wordpress.org/plugins/webfinger/)
