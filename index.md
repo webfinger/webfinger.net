@@ -3,7 +3,7 @@ layout: default
 title: WebFinger
 ---
 
-From the current spec:
+From [RFC 7033](http://tools.ietf.org/html/rfc7033):
 
 <blockquote>
   <p>WebFinger is used to discover information about people or other
@@ -21,5 +21,3 @@ From the current spec:
   a printer can print in color on A4 paper, the physical location of a
   server, or other static information. [...]</p>
 </blockquote>
-
-Current IETF draft: <http://tools.ietf.org/html/draft-ietf-appsawg-webfinger>
