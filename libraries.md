@@ -17,6 +17,10 @@ title: WebFinger Libraries
 
  - [e14n/webfinger](https://github.com/e14n/webfinger)
 
+### PHP ###
+
+ - [PEAR/Net_WebFinger](http://pear.php.net/package/Net_WebFinger/)
+
 ### Other ###
 
  - [WordPress plugin](http://wordpress.org/plugins/webfinger/)
