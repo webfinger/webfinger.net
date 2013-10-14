@@ -3,24 +3,19 @@ layout: default
 title: WebFinger Libraries
 ---
 
-## WebFinger Libraries ##
+## On the Server ##
 
-### Go ###
+Tools to add WebFinger data to your domain.
 
- - [ant0ine/go-webfinger](https://github.com/ant0ine/go-webfinger)
+ - **Jekyll**: [jekyll-webfinger](https://github.com/konklone/jekyll-webfinger)
+ - **Sinatra**: [sinatra-webfinger](https://github.com/konklone/sinatra-webfinger)
+ - **WordPress**: ['webfinger' plugin](http://wordpress.org/plugins/webfinger/)
 
-### JavaScript ###
+## From the Client ##
 
- - [silverbucket/webfinger.js](https://github.com/silverbucket/webfinger.js)
+Libraries for consuming WebFinger data.
 
-### Node.js ###
-
- - [e14n/webfinger](https://github.com/e14n/webfinger)
-
-### PHP ###
-
- - [PEAR/Net_WebFinger](http://pear.php.net/package/Net_WebFinger/)
-
-### Other ###
-
- - [WordPress plugin](http://wordpress.org/plugins/webfinger/)
+ - **Go**: [ant0ine/go-webfinger](https://github.com/ant0ine/go-webfinger)
+ - **JavaScript**: [silverbucket/webfinger.js](https://github.com/silverbucket/webfinger.js)
+ - **Node.js**: [e14n/webfinger](https://github.com/e14n/webfinger)
+ - **PHP**: [PEAR/Net_WebFinger](http://pear.php.net/package/Net_WebFinger/)
