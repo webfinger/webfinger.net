@@ -9,6 +9,7 @@ Tools to add WebFinger data to your domain.
 
 * **Wordpress**: ['webfinger' plugin](http://wordpress.org/plugins/webfinger/)
 * **Sinatra**: [sinatra-webfinger](https://github.com/konklone/sinatra-webfinger)
+* **Jekyll**: [jekyll-webfinger](https://github.com/konklone/jekyll-webfinger)
 
 ## From the Client
 
