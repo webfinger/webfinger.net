@@ -81,3 +81,19 @@ footer {
 a:link, a:visited {
   color: #bf9e03;
 }
+
+
+/** webfinger email checking form **/
+
+form.lookup input {
+  font-size: 120%;
+  padding: 5px;
+}
+
+form.lookup input[type=text] {
+  width: 600px;
+}
+
+form.lookup input[type=submit] {
+  width: 60px; margin-left: 10px;
+}
