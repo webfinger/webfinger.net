@@ -87,6 +87,13 @@ a:link, a:visited {
 
 .email.lookup input {
   font-size: 120%;
-  width: 100%;
   padding: 5px;
+}
+
+.email.lookup input[type=text] {
+  width: 600px;
+}
+
+.email.lookup input[type=submit] {
+  width: 60px; margin-left: 10px;
 }

@@ -4,10 +4,11 @@ title: WebFinger
 ---
 
 
-## What does the Internet know about your email address?
+## Look up the web
 
 <form class="email lookup" action="http://client.webfinger.net/lookup" method="get">
-  <input type="email" name="resource" id="resource" value="" placeholder="Put in your email address and press Enter." />
+  <input type="text" name="resource" id="resource" value="" placeholder="enter an email or URL" />
+  <input type="submit" name="submit" value="Go" />
 </form>
 
 ## What is WebFinger?
