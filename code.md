@@ -19,3 +19,4 @@ Libraries for consuming WebFinger data.
  - **JavaScript**: [silverbucket/webfinger.js](https://github.com/silverbucket/webfinger.js)
  - **Node.js**: [e14n/webfinger](https://github.com/e14n/webfinger)
  - **PHP**: [PEAR/Net_WebFinger](http://pear.php.net/package/Net_WebFinger/)
+ - **Python**: [jcarbaugh/python-webfinger](https://github.com/jcarbaugh/python-webfinger)
