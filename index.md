@@ -29,3 +29,9 @@ From [the official spec](http://tools.ietf.org/html/rfc7033):
 > resource might return JRDs containing link relations that enable a client to
 > discover, for example, the that a printer can print in color on A4 paper, the
 > physical location of a server, or other static information.
+
+### Community ###
+
+* Join the [mailing list](http://groups.google.com/group/webfinger/)
+* [GitHub Repository](https://github.com/webfinger)
+* [Classic Repository](http://code.google.com/p/webfinger/)
