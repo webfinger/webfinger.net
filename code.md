@@ -3,6 +3,10 @@ layout: default
 title: WebFinger Code
 ---
 
+You can try a webfiner lookup for yourself using the example client at
+[client.webfinger.net](http://client.webfinger.net), or by using the server and
+client implementations below.
+
 ## On the Server ##
 
 Tools to add WebFinger data to your domain.
