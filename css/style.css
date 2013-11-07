@@ -71,9 +71,12 @@ header h1 {
 }
 
 footer {
-  color: #999;
+  color: #aaa;
   font-size: 80%;
-  margin-top: 2em;
+  margin-top: 3em;
+}
+footer a:link, footer a:visited {
+  color: #aaa;
 }
 
 a:link, a:visited {
