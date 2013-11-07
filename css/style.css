@@ -18,7 +18,7 @@ header div a:link, header div a:visited {
   text-decoration: none;
 }
 
-#logo {
+header #logo {
   height: 75px;
   float: left;
   margin: 0 1em;
