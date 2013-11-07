@@ -109,6 +109,7 @@ form.lookup {
 
     &[type=text] {
       width: 600px;
+      max-width: 95%;
     }
 
     &[type=submit] {
