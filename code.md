@@ -3,9 +3,8 @@ layout: default
 title: WebFinger Code
 ---
 
-You can try a webfinger lookup for yourself using the example client at
-[client.webfinger.net](http://client.webfinger.net), or by using the server and
-client implementations below.
+You can try a webfinger lookup for yourself using the form above, or by using
+the server and client implementations below.
 
 ## On the Server ##
 
