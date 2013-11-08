@@ -5,16 +5,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.min.css" >
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
       <div>
-        <a href="/">
-          <img src="http://webfinger.github.io/assets/logo/WebFinger.svg" id="logo" />
-          <h1>WebFinger</h1>
-        </a>
-        <p id="tagline">simple discovery for the web</p>
+        <div class="site-title">
+          <a href="/">
+            <img src="http://webfinger.github.io/assets/logo/WebFinger.svg" id="logo" />
+            <h1>WebFinger</h1>
+          </a>
+          <p id="tagline">simple discovery for the web</p>
+        </div>
+
+        <form class="lookup" action="http://client.webfinger.net/lookup" method="get" autocomplete="on">
+          <h3>Lookup WebFinger:</h3>
+          <input type="text" name="resource" id="resource" placeholder="Email or URL" tabindex="1"/>
+          <button tabindex="2"><i class="fa fa-search"></i></button>
+        </form>
       </div>
     </header>
 

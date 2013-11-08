@@ -3,13 +3,6 @@ layout: default
 title: WebFinger
 ---
 
-## Try it out ##
-
-<form class="lookup" action="http://client.webfinger.net/lookup" method="get">
-  <input type="text" name="resource" id="resource" placeholder="Email or URL" />
-  <input type="submit" value="Go" />
-</form>
-
 ## What is WebFinger? ##
 
 A way to attach information to an email address, or other online resource.

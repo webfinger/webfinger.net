@@ -103,17 +103,65 @@ footer {
 
 // webfinger lookup form
 form.lookup {
-  input {
-    font-size: 120%;
-    padding: 5px;
+  background: #fff;
+  border: solid 1px #eee;
+  clear: left;
+  margin: 1em 1em 0 1em;
+  padding: 0.5em;
 
-    &[type=text] {
-      width: 600px;
-      max-width: 95%;
+  h3 {
+    font-size: 80%;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  input[type=text] {
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 80%;
+    outline: 0;
+    padding: 4px 8px;
+    width: 70%;
+
+    &:focus {
+      border: 1px solid $wf-yellow;
+    }
+  }
+
+  button {
+    background: #aaa;
+    border: 1px solid #aaa;
+    color: #fff;
+    display: inline-block;
+    font-size: 80%;
+    outline: 0;
+    padding: 1px 10px 0;
+
+    &:focus {
+      border: 1px solid $wf-yellow;
     }
 
-    &[type=submit] {
-      width: 60px; margin-left: 10px;
+    > i {
+      line-height: 25px;
     }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  form.lookup {
+    background: none;
+    border: 0;
+    clear: none;
+    float: right;
+    margin-top: 0;
+    width: 40%;
+
+    input {
+    }
+  }
+
+  .site-title {
+    float: left;
+    min-width: 50%;
   }
 }
