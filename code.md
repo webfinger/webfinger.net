@@ -13,7 +13,7 @@ Tools to add WebFinger data to your domain.
  - **Apache**: [Aaron Parecki's example](https://gist.github.com/aaronpk/5846789) of an `.htaccess` redirect to a static file.
  - **Jekyll**: [jekyll-webfinger](https://github.com/konklone/jekyll-webfinger)
  - **Sinatra**: [sinatra-webfinger](https://github.com/konklone/sinatra-webfinger)
- - **WordPress**: ['webfinger' plugin](http://wordpress.org/plugins/webfinger/)
+ - **WordPress**: ['webfinger' plugin](https://wordpress.org/plugins/webfinger/)
 
 ## From the Client ##
 

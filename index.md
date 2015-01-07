@@ -7,7 +7,7 @@ title: WebFinger
 
 A way to attach information to an email address, or other online resource.
 
-From [the official spec](http://tools.ietf.org/html/rfc7033):
+From [the official spec](https://tools.ietf.org/html/rfc7033):
 
 > WebFinger is used to discover information about people or other entities on
 > the Internet that are identified by a URI using standard Hypertext Transfer

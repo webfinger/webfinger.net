@@ -26,7 +26,7 @@ standardization. You can [view the archives][ietf-archives].
 [google-join]: https://groups.google.com/forum/#!forum/webfinger/join
 [google-archives]: https://groups.google.com/forum/#!forum/webfinger
 [ietf-list]: https://www.ietf.org/mailman/listinfo/webfinger
-[ietf-archives]: http://www.ietf.org/mail-archive/web/webfinger/
+[ietf-archives]: https://www.ietf.org/mail-archive/web/webfinger/
 
 
 ### Logo ###
@@ -37,5 +37,5 @@ The WebFinger logo was designed by [Eran Hammer][], and is available under a
 It is available in a number of formats from the [WebFinger assets repository][].
 
 [Eran Hammer]: http://hueniverse.com/
-[cc-by]: http://creativecommons.org/licenses/by/3.0/
+[cc-by]: https://creativecommons.org/licenses/by/3.0/
 [WebFinger assets repository]: https://github.com/webfinger/assets/tree/gh-pages/logo
