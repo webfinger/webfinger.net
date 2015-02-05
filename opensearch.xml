@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>WebFinger</ShortName>
+  <Description>Lookup WebFinger</Description>
+  <Tags>webfinger</Tags>
+  <Contact>https://webfinger.net/</Contact>
+  <Url type="text/html" template="https://client.webfinger.net/lookup?resource={searchTerms}"/>
+  <Image height="64" width="64" type="image/png">//webfinger.net/images/WebFinger-64x64.png</Image>
+  <Image height="16" width="16" type="image/png">//webfinger.net/images/WebFinger-16x16.png</Image>
+  <Image height="16" width="16" type="image/vnd.microsoft.icon">//webfinger.net/images/WebFinger-16x16.ico</Image>
+</OpenSearchDescription>
