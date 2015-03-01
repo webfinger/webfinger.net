@@ -19,6 +19,7 @@ Tools to add WebFinger data to your domain.
 
 Libraries for consuming WebFinger data.
 
+ - **Dart** [stevenroose/dart-webfinger](https://github.com/stevenroose/dart-webfinger)
  - **Go**: [ant0ine/go-webfinger](https://github.com/ant0ine/go-webfinger)
  - **JavaScript**: [silverbucket/webfinger.js](https://github.com/silverbucket/webfinger.js)
  - **Node.js**: [e14n/webfinger](https://github.com/e14n/webfinger)
