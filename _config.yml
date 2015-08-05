@@ -6,6 +6,14 @@ collections:
     output: true
     permalinks: /rel/:path
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: rels
+    values:
+      layout: rel
+
 sass:
   sass_dir: css
   style: :compressed
