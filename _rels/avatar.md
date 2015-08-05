@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Link Relation: avatar"
+title: avatar
 ---
 
 ## Link Relation: avatar ##

@@ -1,6 +1,11 @@
 highlighter: pygments
 permalink: pretty
 
+collections:
+  rels:
+    output: true
+    permalinks: /rel/:path
+
 sass:
   sass_dir: css
   style: :compressed

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Link Relation: profile-page"
+title: profile-page
 ---
 
 ## Link Relation: profile-page ##
