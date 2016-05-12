@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Link Relation: avatar"
+title: "WebFinger Link Relation: avatar"
 ---
 
 ## Link Relation: avatar ##
