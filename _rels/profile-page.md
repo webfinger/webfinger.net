@@ -1,9 +1,6 @@
 ---
-layout: default
-title: "Link Relation: profile-page"
+title: http://webfinger.net/rel/profile-page
 ---
-
-## Link Relation: profile-page ##
 
 The link relation `http://webfinger.net/rel/profile-page` identifies the main
 home/profile page that a human should visit when getting info about that
