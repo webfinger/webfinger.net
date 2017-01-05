@@ -10,7 +10,7 @@ You can help making this site better! The source code is available on
 have an idea or found a bug][new-issue]!
 
 [github-repo]: https://github.com/webfinger/webfinger.net
-[new-issue]: https://github.com/webfinger/webfinger.net/issues/new
+[new-issue]: https://github.com/webfinger/webfinger.net/issues
 
 
 ### Mailing Lists ###
