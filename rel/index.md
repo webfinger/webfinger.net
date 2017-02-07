@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Link Relations"
+title: "WebFinger Link Relations"
 ---
 
 ## Link Relations ##

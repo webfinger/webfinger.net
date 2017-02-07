@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Link Relation: profile-page"
+title: "WebFinger Link Relation: profile-page"
 ---
 
 ## Link Relation: profile-page ##
