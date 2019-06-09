@@ -146,6 +146,13 @@ form.lookup {
   }
 }
 
+pre {
+  color: #333;
+  font-size: 0.875em;
+  line-height: 2;
+  white-space: pre-wrap;
+}
+
 @media screen and (min-width: 650px) {
   form.lookup {
     background: none;
