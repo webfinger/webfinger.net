@@ -6,7 +6,7 @@ title: WebFinger Community
 ## Community ##
 
 You can help making this site better! The source code is available on
-[Github][github-repo], feel free to submit pull requests or let us know [if you
+[GitHub][github-repo], feel free to submit pull requests or let us know [if you
 have an idea or found a bug][new-issue]!
 
 [github-repo]: https://github.com/webfinger/webfinger.net
