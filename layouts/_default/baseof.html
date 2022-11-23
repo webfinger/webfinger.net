@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.min.css" />
+    {{- $style := resources.Get "css/style.scss" | resources.ToCSS }}
+    <link rel="stylesheet h-bar" href="{{ $style.RelPermalink }}">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/WebFinger-16x16.ico" />
+    <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Lookup WebFinger" />
+    {{ block "head" . }}{{ end }}
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="site-title">
+          <a href="/">
+            <img src="https://webfinger.github.io/assets/logo/WebFinger.svg" id="logo" />
+            <h1>WebFinger</h1>
+          </a>
+          <p id="tagline">simple discovery for the web</p>
+        </div>
+
+        <form class="lookup" action="/lookup/" method="get" autocomplete="on">
+          <h3>Lookup WebFinger:</h3>
+          <input type="text" name="resource" id="resource" placeholder="Email or URL" tabindex="1" autofocus />
+          <button tabindex="2"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </header>
+
+    <nav role="navigation" id="nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/spec/">Spec</a></li>
+        <li><a href="/code/">Code</a></li>
+        <li><a href="/rel/">Link Relations</a></li>
+        <li><a href="/community/">Community</a></li>
+      </ul>
+    </nav>
+
+    <div id="content">
+      {{ block "main" . }}{{ end }}
+
+      <footer>
+        <p>This website is in a <a href="https://github.com/webfinger/webfinger.net">public git repository</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

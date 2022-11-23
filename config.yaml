@@ -1,0 +1,13 @@
+baseURL: https://webfinger.net
+title: WebFinger
+
+markup:
+  goldmark:
+    extensions:
+      linkify: true
+    renderer:
+      unsafe: true
+
+outputs:
+  home: [html]
+  section: [html]

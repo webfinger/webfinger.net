@@ -1,0 +1,18 @@
+{{ define "head" }}
+  {{ $pkg := default (print "webfinger.net/go/" .Title) .Params.go.pkg }}
+  {{ $vcs := default "git" .Params.go.vcs }}
+  {{ $src := default (print "https://github.com/webfinger/" .Title) .Params.go.src }}
+  <meta name="go-import" content="{{ $pkg }} {{ $vcs }} {{ $src }}">
+  <meta name="go-source" content="{{ $pkg }} _ {{ $src }}/tree/main{/dir} {{ $src }}/blob/main{/dir}/{file}#L{line}">
+  {{- with default .Params.redirect_url $src }}
+  <meta http-equiv="refresh" content="0; url={{ . }}">
+  {{- end }}
+{{ end }}
+{{ define "main" }}
+    {{ $src := default (print "https://github.com/webfinger/" .Title) .Params.go.src }}
+    {{- with default .Params.redirect_url $src }}
+      <p>Redirecting to <a href="{{ . }}">{{ . }}</a>.</p>
+    {{- else }}
+      {{ .Content }}
+    {{- end }}
+{{ end }}

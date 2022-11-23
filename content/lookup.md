@@ -9,4 +9,4 @@
 
 <pre id="jrd" class="prettyprint lang-js"></pre>
 
-<script src="../js/lookup.js"></script>
+<script src="/js/lookup.js"></script>
