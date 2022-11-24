@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.min.css" />
     {{- $style := resources.Get "css/style.scss" | resources.ToCSS }}
-    <link rel="stylesheet h-bar" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <link rel="shortcut icon" type="image/x-icon" href="/images/WebFinger-16x16.ico" />
     <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="Lookup WebFinger" />
     {{ block "head" . }}{{ end }}
