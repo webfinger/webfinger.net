@@ -37,7 +37,6 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo \
-            --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: upload artifact
         uses: actions/upload-pages-artifact@v1
