@@ -8,6 +8,9 @@ markup:
     renderer:
       unsafe: true
 
+# disable taxonomies
+taxonomies: []
+
 outputs:
   home: [html]
   section: [html]

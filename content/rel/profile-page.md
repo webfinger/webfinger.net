@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Link Relation: profile-page"
 ---
 
