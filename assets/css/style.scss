@@ -130,14 +130,17 @@ form.lookup {
     display: inline-block;
     font-size: 80%;
     outline: 0;
-    padding: 1px 10px 0;
+    padding: 1.5px 10px 0;
+    vertical-align: bottom;
 
     &:focus {
       border: 1px solid $wf-yellow;
     }
 
-    > i {
-      line-height: 25px;
+    > svg {
+      fill: #fff;
+      height: 19px;
+      width: 19px;
     }
   }
 }
