@@ -1,4 +1,5 @@
 ---
+lookupjs: true
 ---
 
 # Request Log
@@ -8,5 +9,3 @@
 # JSON Resource Descriptor (JRD)
 
 <pre id="jrd" class="prettyprint lang-js"></pre>
-
-<script src="/js/lookup.js"></script>

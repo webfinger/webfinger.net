@@ -50,5 +50,6 @@
         <p>This website is in a <a href="https://github.com/webfinger/webfinger.net">public git repository</a>.</p>
       </footer>
     </div>
+    {{ if .Params.lookupjs }}<script>{{ (resources.Get "js/lookup.js").Content | safeJS }}</script>{{ end }}
   </body>
 </html>
