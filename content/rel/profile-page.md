@@ -1,8 +1,8 @@
 ---
-title: "Link Relation: profile-page"
+title: "Link Relation: http://webfinger.net/rel/profile-page"
 ---
 
-## Link Relation: profile-page ##
+## Link Relation: `http://webfinger.net/rel/profile-page` ##
 
 The link relation `http://webfinger.net/rel/profile-page` identifies the main
 home/profile page that a human should visit when getting info about that

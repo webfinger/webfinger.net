@@ -4,7 +4,7 @@ title: "Link Relations"
 
 ## Link Relations ##
 
-* [avatar](./avatar)
-* [profile-page](./profile-page)
+* [http://webfinger.net/rel/avatar](./avatar)
+* [http://webfinger.net/rel/profile-page](./profile-page)
 
 See also: [existing rel values](http://microformats.org/wiki/existing-rel-values) on the Microformats Wiki.
