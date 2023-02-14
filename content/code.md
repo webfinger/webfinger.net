@@ -14,6 +14,7 @@ Tools to add WebFinger data to your domain.
  - **Jekyll**: [jekyll-webfinger](https://github.com/konklone/jekyll-webfinger)
  - **Sinatra**: [sinatra-webfinger](https://github.com/konklone/sinatra-webfinger)
  - **WordPress**: ['webfinger' plugin](https://wordpress.org/plugins/webfinger/)
+ - **Laravel** [laravel-webfinger](https://github.com/trovster/laravel-webfinger)
 
 ## From the Client ##
 
