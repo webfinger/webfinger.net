@@ -11,11 +11,12 @@ the server and client implementations below.
 Tools to add WebFinger data to your domain.
 
  - **Apache**: [Aaron Parecki's example](https://gist.github.com/aaronpk/5846789) of an `.htaccess` redirect to a static file.
+ - **Drupal**: [drupal-webfinger](https://www.drupal.org/project/webfinger)
  - **Jekyll**: [jekyll-webfinger](https://github.com/konklone/jekyll-webfinger)
- - **Sinatra**: [sinatra-webfinger](https://github.com/konklone/sinatra-webfinger)
- - **WordPress**: ['webfinger' plugin](https://wordpress.org/plugins/webfinger/)
  - **Laravel** [laravel-webfinger](https://github.com/trovster/laravel-webfinger)
  - **Go** [go-finger](https://github.com/Maronato/go-finger)
+ - **Sinatra**: [sinatra-webfinger](https://github.com/konklone/sinatra-webfinger)
+ - **WordPress**: ['webfinger' plugin](https://wordpress.org/plugins/webfinger/)
 
 ## From the Client ##
 
