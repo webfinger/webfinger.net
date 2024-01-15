@@ -10,14 +10,14 @@ Any valid rel value can be used in WebFinger links.
 
 The following rel values have been defined in the webfinger.net namespace to address common WebFinger use cases.
 
-### `https://webfinger.net/rel/avatar` {#avatar}
+### `http://webfinger.net/rel/avatar` {#avatar}
 
-The link relation `https://webfinger.net/rel/avatar` identifies a person's
+The link relation `http://webfinger.net/rel/avatar` identifies a person's
 avatar and may be in any standard image format (e.g., PNG, JPEG, GIF).
 
-### `https://webfinger.net/rel/profile-page` {#profile-page}
+### `http://webfinger.net/rel/profile-page` {#profile-page}
 
-The link relation `https://webfinger.net/rel/profile-page` identifies the main
+The link relation `http://webfinger.net/rel/profile-page` identifies the main
 home/profile page that a human should visit when getting info about that
 webfinger account. It says nothing about the content-type (or microformats),
 but it's likely text/html if it's for users.
