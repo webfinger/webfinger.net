@@ -8,7 +8,7 @@ title: "WebFinger Specifications"
 * WebFinger Spec: [rfc7033](https://tools.ietf.org/html/rfc7033)
 * The 'acct' URI Scheme Spec: [rfc7565](https://tools.ietf.org/html/rfc7565)
 
-## Community efforts ##
+## Extensions ##
 
 * ActivityPub and WebFinger: [W3C Draft Community Group Report](https://swicg.github.io/activitypub-webfinger/)
 * Dereferencing identifiers with WebFinger: [FEP-4adb](https://codeberg.org/fediverse/fep/src/branch/main/fep/4adb/fep-4adb.md)
