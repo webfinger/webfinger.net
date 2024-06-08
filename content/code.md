@@ -15,6 +15,7 @@ Tools to add WebFinger data to your domain.
  - **Jekyll**: [jekyll-webfinger](https://github.com/konklone/jekyll-webfinger)
  - **Laravel** [laravel-webfinger](https://github.com/trovster/laravel-webfinger)
  - **Go** [go-finger](https://github.com/Maronato/go-finger)
+ - **Go**: [carpal](https://github.com/peeley/carpal) (also supports loading resources from LDAP)
  - **Sinatra**: [sinatra-webfinger](https://github.com/konklone/sinatra-webfinger)
  - **WordPress**: ['webfinger' plugin](https://wordpress.org/plugins/webfinger/)
 
