@@ -29,3 +29,4 @@ Libraries for consuming WebFinger data.
  - **Node.js**: [e14n/webfinger](https://github.com/e14n/webfinger)
  - **PHP**: [PEAR/Net_WebFinger](https://pear.php.net/package/Net_WebFinger/)
  - **Python**: [jcarbaugh/python-webfinger](https://github.com/jcarbaugh/python-webfinger)
+ - **Haskell**: [Hackage/webfinger-client](https://hackage.haskell.org/package/webfinger-client)
