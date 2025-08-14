@@ -33,3 +33,4 @@ Libraries for consuming WebFinger data.
 - **PHP**: [PEAR/Net_WebFinger](https://pear.php.net/package/Net_WebFinger/)
 - **Python**: [jcarbaugh/python-webfinger](https://github.com/jcarbaugh/python-webfinger)
 - **Haskell**: [Hackage/webfinger-client](https://hackage.haskell.org/package/webfinger-client)
+- **Haxe**: [lime360/hxfinger](https://codeberg.org/lime360/hxfinger)
