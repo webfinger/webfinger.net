@@ -13,7 +13,7 @@ Tools to add WebFinger data to your domain.
 - **Serving static files**:
   - [Apache](https://gist.github.com/aaronpk/5846789)
   - [Caddy](https://willnorris.com/2023/caddy-snippets/#webfinger)
-  - [Ngninx](https://willnorris.com/2014/webfinger-with-static-files-nginx/)
+  - [Nginx](https://willnorris.com/2014/webfinger-with-static-files-nginx/)
 - **Drupal**: [drupal-webfinger](https://www.drupal.org/project/webfinger)
 - **Jekyll**: [jekyll-webfinger](https://github.com/konklone/jekyll-webfinger)
 - **Laravel** [laravel-webfinger](https://github.com/trovster/laravel-webfinger)
